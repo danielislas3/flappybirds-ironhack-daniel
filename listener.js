@@ -3,3 +3,6 @@ addEventListener('keydown', event => {
     flappy.flap()
   }
 })
+addEventListener('click', event => {
+  event.initEvent(flappy.flap())
+})
